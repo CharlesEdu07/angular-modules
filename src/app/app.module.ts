@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ButtonsModule } from './buttons/buttons.module';
+import { NavigationModule } from './navigation/navigation.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { ButtonsModule } from './buttons/buttons.module';
   ],
   imports: [
     BrowserModule,
-    ButtonsModule
+    NavigationModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
