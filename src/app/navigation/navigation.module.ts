@@ -9,6 +9,6 @@ import { ButtonsModule } from 'app/buttons/buttons.module';
     ButtonsModule
   ],
   declarations: [MenuComponent],
-  exports: [MenuComponent]
+  exports: [MenuComponent, ButtonsModule]
 })
 export class NavigationModule { }
